@@ -1,0 +1,11 @@
+{
+    "handlers": [
+        {
+            "name": "Echo",
+            "path": "handler.js",
+            "triggers": [
+                "Hello"
+            ]
+        }
+    ]
+}
