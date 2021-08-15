@@ -1,4 +1,4 @@
 // This is a test handler which echos back the messsage that the user sent.
 const handler = async (req) => {
-    operand.respond("Hello");
+    operand.respond(req.message);
 }
